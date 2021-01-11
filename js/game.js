@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d')
 let x = 10
 
 function gameLoop() {
-    ctx.fillStyle = 'yellow';
+    ctx.fillStyle = 'white';
     ctx.fillRect(0,0,300,300);
 
     ctx.fillStyle = 'red';
